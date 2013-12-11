@@ -10,14 +10,14 @@
     <body>
         <div class="container">
             <div class="row title-bar">
-                //FIXME Use bootstrap title bar
                 <h1>MJS7</h1>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <form action="#" class="row search">
-                        <input type="search" placeholder="Search">
-                        <button type="submit">Search</button>
+                    <form action="#" class="row search form-inline">
+                        <input type="search" class="form-control" placeholder="Search">
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
+ Search </button>
                     </form>
                     <div class="row results">
                         <div class="song">
@@ -58,7 +58,5 @@
         
         <script type="text/javascript" src="javascripts/jquery.js"></script>
         <script type="text/javascript" src="javascripts/jquery.touchpunch.js"></script>
-        <script type="text/javascript" src="javascripts/underscore.js"></script>
-        <script type="text/javascript" src="javascripts/backbone.js"></script>
     </body>
 </html>
